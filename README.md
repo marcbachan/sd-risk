@@ -1,12 +1,12 @@
 # Evaluating Synthetic Data Risk with Anonymeter
 
-This Streamlit app was developed as a **proof of concept** to demonstrate how the **Anonos SDK** can be integrated with **Snowflake** to enable privacy-preserving analytics using synthetic data.
+This Streamlit app was developed as a **proof of concept** to demonstrate how a Python SDK can be integrated with **Snowflake** to enable privacy-preserving analytics using synthetic data.
 
 ## Overview
 
 The app showcases how to:
 
-- **Leverage the Anonos Python SDK within a Snowflake environment** via user-defined functions (UDFs).
+- **Leverage the Python SDK within a Snowflake environment** via Streamlit UI.
 - **Generate synthetic data** directly in Snowflake using the SDK.
 - **Analyze privacy risks** associated with the synthetic dataset using the open-source tool **Anonymeter**.
 
@@ -25,8 +25,6 @@ For more details on the methodology behind Anonymeter, please refer to the paper
 ## Key Technologies
 
 - **Streamlit** – UI layer for interaction and visualization
-- **Anonos SDK** – Synthetic data generation and risk analysis tools
-- **Snowflake** – Cloud data platform with Python UDF support
 - **Anonymeter** – Privacy risk evaluation for synthetic datasets
 
 ## Getting Started
