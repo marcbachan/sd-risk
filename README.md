@@ -31,6 +31,26 @@ For more details on the methodology behind Anonymeter, please refer to the paper
 
 ## Getting Started
 
+### Streamlit UI
+
+The descriptions in the app will closely follow the Jupyter Notebook example from the Anonymeter repository. As the application doesn't adhere to the sequential nature of a notebook, there are a few key changes made to make the UI a little more flexible:
+
+1. **Analyze All**
+At the top, you can use this button to run all three risk assessments on the default `adults` dataset. This will give you a high-level report of the overall scores for each in the top-right corner of the screen.
+
+![](img/analyze_all.png)
+
+2. **Use Your Own Data*
+On the `Datasets` tab, toggling this will allow you to drag in your own CSV datasets and analyze them. The `aux_cols` for the Linkability assessment will update according to your dataset and will need to be re-evaluated before running a new assessment. 
+
+![](img/use_own_data.png)
+
+3. **Standalone Assessments**
+Each assessment type has its own tab with unique parameters that can be adjusted and run individually. As seen here with Singling Out, this will give you more specifics on the outcome.
+
+![](img/singling_out_standalone.png)
+
+
 ### Local Development
 
 1. Ensure that you have installed Python `3.8.x`, `3.9.x`, or `3.10.x`
