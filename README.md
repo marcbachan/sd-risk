@@ -38,7 +38,7 @@ At the top, you can use this button to run all three risk assessments on the def
 
 ![](img/analyze_all.png)
 
-2. **Use Your Own Data*
+2. **Use Your Own Data**
 On the `Datasets` tab, toggling this will allow you to drag in your own CSV datasets and analyze them. The `aux_cols` for the Linkability assessment will update according to your dataset and will need to be re-evaluated before running a new assessment. 
 
 ![](img/use_own_data.png)
